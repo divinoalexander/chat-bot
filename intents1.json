@@ -1,0 +1,807 @@
+{
+  "intents": [
+    {
+      "tag": "buying_preferences",
+      "patterns": ["What is the best mixer grinder to choose", "How do I select a mixer grinder?", "Mixer grinder buying guide"],
+      "responses": [
+        "Choosing the right mixer grinder depends on your needs. Here are some tips to help you decide:",
+        "1. **Motor Power**: For regular usage, a 500W motor is sufficient, but for heavy-duty tasks like grinding tough ingredients or preparing idli/dosa batter, opt for 750W or higher.",
+        "2. **Number of Jars**: Consider the number of jars you need. If you often multitask in the kitchen, go for a mixer grinder with at least 3-4 jars for wet and dry grinding, juicing, and chutney preparation.",
+        "3. **Build Quality**: Look for sturdy and durable materials. Stainless steel jars with high-quality lids are ideal for long-term use.",
+        "4. **Overload Protection**: Ensure the appliance has an overload protection feature to prevent motor burnout during heavy usage.",
+        "5. **Blades**: Sharp and durable blades made of high-grade stainless steel ensure efficient grinding and blending.",
+        "6. **Noise Level**: Check reviews for noise levels if you prefer a quieter kitchen appliance.",
+        "7. **Brand and Warranty**: Opt for a trusted brand like Bajaj, Philips, Prestige, or Sujata, and ensure the product comes with a minimum 1-2 year warranty.",
+        "8. **Price Range**: Decide your budget. Affordable options like Bajaj and Orient cater to budget-conscious buyers, while premium models like Sujata and Panasonic offer advanced features.",
+        "9. **Additional Features**: Some mixers come with juicer jars, speed control knobs, or advanced safety features. Choose according to your requirements.",
+        "10. **Energy Efficiency**: Consider energy-efficient models to save electricity during prolonged usage."
+      ]
+    },
+    {
+      "tag": "mixer_grinder_bajaj",
+      "patterns": ["Tell me about Bajaj Rex Mixer Grinder", "Bajaj mixer grinder", "Bajaj Rex Mixer details"],
+      "responses": [
+        "The Bajaj Rex Mixer Grinder is a versatile and durable kitchen appliance. It comes with three stainless steel jars for different purposes - grinding, blending, and chutney making. It has a 500W motor that ensures efficient grinding and blending. The mixer grinder features an ergonomic design, easy-to-use controls, and multiple speed settings. It is ideal for Indian cooking needs and offers great value for money."
+      ]
+    },
+    {
+      "tag": "mixer_grinder_philips",
+      "patterns": ["Tell me about Philips HL7756/00 Mixer Grinder", "Philips mixer grinder", "Philips HL7756/00 details"],
+      "responses": [
+        "The Philips HL7756/00 Mixer Grinder is known for its advanced performance and robust design. Equipped with a 750W motor, it can handle tough grinding tasks with ease. It comes with three jars made of stainless steel and features specialized blades for efficient grinding. Its unique triangular body design ensures stability during operation. The product is also designed for easy cleaning and maintenance."
+      ]
+    },
+
+    {
+      "tag": "mixer_grinder_prestige",
+      "patterns": ["Tell me about Prestige Iris Mixer Grinder", "Prestige mixer grinder", "Prestige Iris details"],
+      "responses": [
+        "The Prestige Iris Mixer Grinder is a stylish and powerful kitchen appliance. It features a 750W motor and comes with four jars, including a juicer jar, making it highly versatile. The jars are made of stainless steel and come with durable, sharp blades for efficient grinding and blending. Its advanced design ensures easy handling and stable operation. The appliance is suitable for heavy-duty use and can handle a variety of kitchen tasks effortlessly."
+      ]
+    },
+    {
+      "tag": "mixer_grinder_orient",
+      "patterns": ["Tell me about Orient Electric Kitchen Kraft Mixer Grinder", "Orient mixer grinder", "Orient Electric Kitchen Kraft details"],
+      "responses": [
+        "The Orient Electric Kitchen Kraft Mixer Grinder is designed for high performance with its 500W motor. It comes with three stainless steel jars with sharp blades that can handle wet and dry grinding effectively. Its compact and ergonomic design makes it easy to use and store. The mixer grinder also features overload protection, ensuring safety during use."
+      ]
+    },
+    {
+      "tag": "mixer_grinder_sujata",
+      "patterns": ["Tell me about Sujata Dynamix Mixer Grinder", "Sujata mixer grinder", "Sujata Dynamix details"],
+      "responses": [
+        "The Sujata Dynamix Mixer Grinder is a top choice for heavy-duty kitchen needs. Equipped with a 900W motor and double ball bearings, it offers excellent performance and durability. The mixer comes with three stainless steel jars for dry and wet grinding. Its high-speed motor ensures efficient grinding in a short time. It is ideal for preparing idli and dosa batter, making it a preferred choice for Indian households."
+      ]
+    },
+    {
+      "tag": "mixer_grinder_morphy_richards",
+      "patterns": ["Tell me about Morphy Richards Aero Plus Mixer Grinder", "Morphy Richards mixer grinder", "Morphy Richards Aero Plus details"],
+      "responses": [
+        "The Morphy Richards Aero Plus Mixer Grinder is a compact and efficient appliance. It features a 500W motor and comes with three jars made of high-grade stainless steel. The jars have razor-sharp blades for precise grinding and blending. The product is known for its stylish design, overload protection, and easy maintenance. It is an excellent choice for everyday kitchen needs."
+      ]
+    },
+    {
+      "tag": "mixer_grinder_panasonic",
+      "patterns": ["Tell me about Panasonic mixer grinder", "Panasonic mixer grinder details", "Panasonic kitchen appliances"],
+      "responses": [
+        "Panasonic mixer grinders are known for their advanced technology and durable construction. They feature powerful motors ranging from 500W to 1000W, ensuring efficient grinding and blending. The jars are made of high-quality stainless steel and include specialized blades for various tasks. Panasonic mixers are designed for easy handling and cleaning, making them a reliable choice for modern kitchens."
+      ]
+    }, {
+      "tag": "vacuum_cleaner_eureka_forbes_quick_clean",
+      "patterns": ["Tell me about Eureka Forbes Quick Clean DX Vacuum Cleaner", "Eureka Forbes Quick Clean details", "Quick Clean DX Vacuum Cleaner features"],
+      "responses": [
+        "The Eureka Forbes Quick Clean DX Vacuum Cleaner features a powerful 1200W motor for efficient suction. It comes with 3 free reusable dust bags and multiple accessories, making it suitable for various cleaning tasks. The dust bag full indicator helps manage cleaning effectively. Its lightweight and compact design ensures easy handling and storage. It is a reliable and budget-friendly choice for Indian households."
+      ]
+    },
+    {
+      "tag": "vacuum_cleaner_philips_powerpro",
+      "patterns": ["Tell me about Philips PowerPro FC9352/01 Vacuum Cleaner", "Philips PowerPro details", "Philips bagless vacuum cleaner"],
+      "responses": [
+        "The Philips PowerPro FC9352/01 Compact Bagless Vacuum Cleaner is equipped with PowerCyclone 5 technology and a 1900W motor, delivering strong suction and thorough cleaning. Its bagless design and multi-clean nozzle make it ideal for modern households. The integrated soft brush and compact design add convenience and ease of use. This vacuum cleaner is suitable for various surfaces and offers superior cleaning performance."
+      ]
+    },
+    {
+      "tag": "vacuum_cleaner_agaro_rapid",
+      "patterns": ["Tell me about AGARO Rapid Vacuum Cleaner", "Agaro 33398 Rapid details", "Wet & Dry Vacuum Cleaner by AGARO"],
+      "responses": [
+        "The AGARO 33398 Rapid Vacuum Cleaner is a wet and dry cleaner with a 1000W motor and a 10-litre tank capacity. It features a blower function for outdoor cleaning tasks and comes with multiple accessories for versatile use. Its compact design and lightweight construction ensure easy mobility and storage, making it perfect for home and small office use."
+      ]
+    },
+    {
+      "tag": "vacuum_cleaner_amazonbasics_wet_dry",
+      "patterns": ["Tell me about AmazonBasics Wet and Dry Vacuum Cleaner", "AmazonBasics vacuum cleaner details", "AmazonBasics Wet and Dry features"],
+      "responses": [
+        "The AmazonBasics Wet and Dry Vacuum Cleaner offers 20 kPa suction power and low sound operation, making it highly efficient and quiet. It has a 15-litre capacity and comes with a blower function for additional cleaning versatility. With high energy efficiency and a 1-year warranty, this vacuum cleaner is a durable and cost-effective option."
+      ]
+    },
+    {
+      "tag": "vacuum_cleaner_agaro_ace",
+      "patterns": ["Tell me about AGARO Ace Vacuum Cleaner", "Agaro Ace details", "Wet & Dry Vacuum Cleaner with Steel Body"],
+      "responses": [
+        "The AGARO Ace Wet & Dry Vacuum Cleaner features a powerful 1600W motor with 21.5 kPa suction power. It comes with a 21-litre stainless steel tank, a washable dust bag, and a blower function. The durable construction and high suction power make it an excellent choice for heavy-duty cleaning in large homes and offices."
+      ]
+    },
+    {
+      "tag": "vacuum_cleaner_inalsa_micro",
+      "patterns": ["Tell me about Inalsa Micro WD10 Vacuum Cleaner", "Inalsa Micro WD10 details", "Wet & Dry Vacuum Cleaner by Inalsa"],
+      "responses": [
+        "The Inalsa Micro WD10 Vacuum Cleaner is a versatile 3-in-1 cleaner with wet, dry, and blowing functions. It features 14 kPa suction power and a durable polymer tank with a 10-litre capacity. Its compact and lightweight design ensures easy portability, making it suitable for small to medium-sized homes."
+      ]
+    },
+    {
+      "tag": "vacuum_cleaner_american_micronic",
+      "patterns": ["Tell me about AMERICAN MICRONIC Vacuum Cleaner", "American Micronic details", "Wet & Dry Vacuum Cleaner with HEPA Filter"],
+      "responses": [
+        "The AMERICAN MICRONIC Wet & Dry Vacuum Cleaner is equipped with a 1600W motor and 28 kPa suction power. It features a 21-litre stainless steel tank, a HEPA filter for allergen-free cleaning, and a reusable dust bag. The powerful motor and versatile functionality make it a great choice for deep cleaning tasks."
+      ]
+    },
+    {
+      "tag": "vacuum_cleaner_karcher_wd3",
+      "patterns": ["Tell me about Karcher WD 3 Vacuum Cleaner", "Karcher WD3 details", "Wet & Dry Vacuum Cleaner by Karcher"],
+      "responses": [
+        "The Karcher WD 3 *EU Wet & Dry Vacuum Cleaner features a 1000W motor and a durable plastic body. It offers efficient wet and dry cleaning with a compact design and multiple nozzles for different cleaning tasks. This vacuum cleaner is reliable and suitable for daily household cleaning."
+      ]
+    },
+    {
+      "tag": "vacuum_cleaner_black_decker_wdbd15",
+      "patterns": ["Tell me about BLACK+DECKER WDBD15 Vacuum Cleaner", "Black+Decker WDBD15 details", "Wet & Dry Vacuum Cleaner by Black+Decker"],
+      "responses": [
+        "The BLACK+DECKER WDBD15 Vacuum Cleaner features a 1400W motor with 16 kPa suction power. It comes with a HEPA filter, a reusable dust bag, and a 15-litre capacity for wet and dry cleaning. Its modern design and sturdy build make it an ideal choice for household cleaning needs."
+      ]
+    },
+      {
+      "tag": "laptop_buying_guide",
+      "patterns": ["How to choose a laptop?", "What should I consider when buying a laptop?", "Laptop buying tips", "Laptop specifications to look for"],
+      "responses": [
+        "Choosing the right laptop depends on your needs. Here's a guide to help you decide:",
+        "1. **Purpose**: Define your primary use (e.g., gaming, business, education, design, or general use).",
+        "2. **Processor**: Opt for Intel Core i5/i7 or AMD Ryzen 5/7 for performance. For basic use, Intel Core i3 or AMD Ryzen 3 suffices.",
+        "3. **RAM**: Minimum 8GB for most tasks. Consider 16GB or more for multitasking, gaming, or heavy software.",
+        "4. **Storage**: Choose SSD for faster performance (minimum 256GB). For large file storage, combine SSD with HDD.",
+        "5. **Graphics Card**: Integrated GPUs are good for everyday use. For gaming or graphic-intensive tasks, opt for dedicated GPUs like NVIDIA GTX/RTX or AMD Radeon.",
+        "6. **Display**: Look for Full HD (1920x1080) resolution or higher. For creatives, consider higher resolution or color accuracy (e.g., 4K or OLED displays).",
+        "7. **Build Quality and Durability**: Aluminum or magnesium alloy builds are more durable than plastic. Consider spill-resistant keyboards for durability.",
+        "8. **Battery Life**: Check for a minimum of 6-8 hours of battery life for portability.",
+        "9. **Operating System**: Choose between Windows, macOS, or Chrome OS based on your ecosystem and software needs.",
+        "10. **Ports and Connectivity**: Ensure adequate USB ports, HDMI, and headphone jacks. Thunderbolt 4 or USB-C is preferred for future-proofing.",
+        "11. **Brand Support and Warranty**: Choose brands with reliable customer service and extended warranty options.",
+        "12. **Budget**: Set a budget and prioritize features accordingly. Gaming laptops and high-performance models typically cost more."
+      ]
+    },
+    {
+      "tag": "laptop_brand_apple",
+      "patterns": ["Tell me about Apple laptops", "Apple laptops features", "Apple laptops specs"],
+      "responses": [
+        "Apple laptops, such as MacBook Air and MacBook Pro, are known for their premium design, excellent performance, and seamless ecosystem integration. \n**Customer Support**: Excellent, with Genius Bar support and online resources.\n**Durability**: High, thanks to premium materials and build quality.\n**Best For**: Creative professionals, students, and users who value premium design and user experience."
+      ]
+    },
+    {
+      "tag": "laptop_brand_dell",
+      "patterns": ["Tell me about Dell laptops", "Dell laptops features", "Dell laptops specs"],
+      "responses": [
+        "Dell offers a wide range of laptops for business and personal use, including the Inspiron, XPS, and Latitude series. \n**Customer Support**: Good customer service with phone, chat, and email support.\n**Durability**: Sturdy build quality, ideal for business and professional environments.\n**Best For**: Business-oriented features, reliable performance, and professional tasks."
+      ]
+    },
+    {
+      "tag": "laptop_brand_hp",
+      "patterns": ["Tell me about HP laptops", "HP laptops features", "HP laptops specs"],
+      "responses": [
+        "HP provides versatile laptops catering to various needs with models like Pavilion, Spectre, and Envy. \n**Customer Support**: Satisfactory assistance via phone and online forums.\n**Durability**: Designed for everyday use with decent build quality.\n**Best For**: General-purpose laptops, affordable performance, and functionality."
+      ]
+    },
+    {
+      "tag": "laptop_brand_lenovo",
+      "patterns": ["Tell me about Lenovo laptops", "Lenovo laptops features", "Lenovo laptops specs"],
+      "responses": [
+        "Lenovo laptops, including the ThinkPad and IdeaPad series, are known for reliability and robust construction. \n**Customer Support**: Adequate support through phone and online help resources.\n**Durability**: Sturdy construction, emphasizing reliability.\n**Best For**: Productivity tasks, business use, and general reliability."
+      ]
+    },
+    {
+      "tag": "laptop_brand_acer",
+      "patterns": ["Tell me about Acer laptops", "Acer laptops features", "Acer laptops specs"],
+      "responses": [
+        "Acer laptops offer budget-friendly options and gaming-focused models like the Predator series. \n**Customer Support**: Average response through phone and email support.\n**Durability**: Moderate durability with budget-friendly designs.\n**Best For**: Affordable laptops, casual use, and gaming performance."
+      ]
+    },
+    {
+      "tag": "laptop_brand_asus",
+      "patterns": ["Tell me about Asus laptops", "Asus laptops features", "Asus laptops specs"],
+      "responses": [
+        "Asus laptops include the ROG and ZenBook series, known for gaming and innovation. \n**Customer Support**: Dependable service with phone and email support.\n**Durability**: Fairly robust build quality suitable for various needs.\n**Best For**: Gaming, innovation, and cutting-edge technology."
+      ]
+    },
+    {
+      "tag": "laptop_brand_microsoft",
+      "patterns": ["Tell me about Microsoft laptops", "Microsoft laptops features", "Microsoft laptops specs"],
+      "responses": [
+        "Microsoft Surface laptops are known for premium build quality and integration with Windows. \n**Customer Support**: Decent care through online and phone support.\n**Durability**: Durable construction, especially in Surface devices.\n**Best For**: Innovative designs, productivity, and seamless Windows integration."
+      ]
+    },
+    {
+      "tag": "laptop_brand_samsung",
+      "patterns": ["Tell me about Samsung laptops", "Samsung laptops features", "Samsung laptops specs"],
+      "responses": [
+        "Samsung laptops, including the Galaxy Book series, are known for sleek design and display quality. \n**Customer Support**: Reliable assistance via customer service and online FAQs.\n**Durability**: Durable construction for long-term use.\n**Best For**: Superior display quality, lightweight designs, and portability."
+      ]
+    },
+    {
+      "tag": "laptop_brand_lg",
+      "patterns": ["Tell me about LG laptops", "LG laptops features", "LG laptops specs"],
+      "responses": [
+        "LG laptops, like the Gram series, are designed for portability and long battery life. \n**Customer Support**: Trustworthy support via phone and online resources.\n**Durability**: Long-lasting build quality for consistent use.\n**Best For**: Lightweight laptops with extended battery life and vibrant displays."
+      ]
+    },{
+      "tag": "geyser_crompton_arno_neo",
+      "patterns": ["Tell me about Crompton Arno Neo Geyser", "Crompton Arno Neo details", "Arno Neo Geyser features"],
+      "responses": [
+        "Brand & Model: **Crompton Arno Neo**\n\n**Key Features:**\n- 1200 gm heating element for quick heating (10 mins to 45°C).\n- Smart energy management (standby power <1W).\n- 3-level safety protection.\n\n**Special Technology:**\n- Nano Polybond Technology for corrosion resistance.\n\n**Pressure Handling:**\n- Up to 8 bar.\n\n**Warranty:**\n- 5 years tank, 2 years product."
+      ]
+    },
+    {
+      "tag": "geyser_bajaj_shield_series",
+      "patterns": ["Tell me about Bajaj Shield Series Geyser", "Bajaj Shield Series New Shakti details", "Bajaj New Shakti Geyser features"],
+      "responses": [
+        "Brand & Model: **Bajaj Shield Series New Shakti**\n\n**Key Features:**\n- DuraAce marine-grade tank coating.\n- VoltagePro for up to 45kW surge resistance.\n- Weld-free joint outer body.\n\n**Special Technology:**\n- Swirlflow Technology for 20% more hot water.\n\n**Pressure Handling:**\n- Up to 8 bar.\n\n**Warranty:**\n- 2 years product, 5 years tank."
+      ]
+    },
+    {
+      "tag": "geyser_ao_smith_hse",
+      "patterns": ["Tell me about AO Smith HSE-SHS-015 Geyser", "AO Smith Geyser features", "AO Smith HSE details"],
+      "responses": [
+        "Brand & Model: **AO Smith HSE-SHS-015**\n\n**Key Features:**\n- 2000W heating element with 5-star energy efficiency.\n- Multi-function safety valve.\n\n**Special Technology:**\n- Blue diamond glass-lined tank for 2x corrosion resistance.\n\n**Pressure Handling:**\n- Up to 8 bar.\n\n**Warranty:**\n- 5 years tank, 2 years heating."
+      ]
+    },
+    {
+      "tag": "geyser_havells_instanio_prime",
+      "patterns": ["Tell me about Havells Instanio Prime Geyser", "Havells Instanio Prime details", "Instanio Prime Geyser features"],
+      "responses": [
+        "Brand & Model: **Havells Instanio Prime**\n\n**Key Features:**\n- Feroglas-coated tank for durability.\n- LED indicator changes color for temperature status.\n- Optimized hot/cold water mixing for faster heating.\n\n**Special Technology:**\n- High-pressure safety valve.\n\n**Pressure Handling:**\n- Up to 8 bar.\n\n**Warranty:**\n- 7 years tank, 2 years product."
+      ]
+    },
+    {
+      "tag": "geyser_vguard_divino",
+      "patterns": ["Tell me about V-Guard Divino DG Geyser", "V-Guard Divino details", "Divino DG Geyser features"],
+      "responses": [
+        "Brand & Model: **V-Guard Divino DG**\n\n**Key Features:**\n- Vitreous enamel-coated tank.\n- Hygienic, scale-free water.\n- 5-in-1 safety valve for overheating, pressure, and vacuum protection.\n\n**Special Technology:**\n- Incoloy 800 heating element for corrosion resistance.\n\n**Pressure Handling:**\n- Up to 8 bar.\n\n**Warranty:**\n- 2 years product, 5 years tank."
+      ]
+    },
+    {
+      "tag": "geyser_orient_enamour",
+      "patterns": ["Tell me about Orient Enamour Classic Pro Geyser", "Orient Enamour details", "Classic Pro Geyser features"],
+      "responses": [
+        "Brand & Model: **Orient Enamour Classic Pro**\n\n**Key Features:**\n- Nickel-coated copper heating element for durability.\n- Pre-coated metal body.\n- Shock-proof polymer body.\n\n**Special Technology:**\n- Whirlflow technology for 20% more hot water and better energy optimization.\n\n**Pressure Handling:**\n- Up to 8 bar.\n\n**Warranty:**\n- 7 years tank, 2 years product."
+      ]
+    },
+    {
+      "tag": "geyser_racold_eterno_pro",
+      "patterns": ["Tell me about Racold Eterno Pro Geyser", "Racold Eterno Pro details", "Eterno Pro Geyser features"],
+      "responses": [
+        "Brand & Model: **Racold Eterno Pro**\n\n**Key Features:**\n- Flexomix ensures constant water supply.\n- Energy-saving modes (up to 40%).\n\n**Special Technology:**\n- Titanium Plus technology for enhanced corrosion resistance.\n- Smart Cath Logic for tailored heating modes.\n\n**Pressure Handling:**\n- Up to 8 bar.\n\n**Warranty:**\n- 3 years product, 7 years tank."
+      ]
+    },
+    {
+      "tag": "geyser_haier_regenta_pro",
+      "patterns": ["Tell me about Haier Regenta Pro Geyser", "Haier Regenta Pro details", "Regenta Pro Geyser features"],
+      "responses": [
+        "Brand & Model: **Haier Regenta Pro**\n\n**Key Features:**\n- Adjustable power settings (1-3KW).\n- Turbo, Eco, and Smart Modes.\n- Shock-proof technology prevents electric current in water.\n\n**Special Technology:**\n- BPS mode for 99% bacteria-free water.\n\n**Pressure Handling:**\n- Up to 8 bar.\n\n**Warranty:**\n- 7 years tank, 4 years heating."
+      ]
+    },
+    {
+      "tag": "geyser_usha_aquerra",
+      "patterns": ["Tell me about USHA Aquerra Geyser", "USHA Aquerra details", "Aquerra Geyser features"],
+      "responses": [
+        "Brand & Model: **USHA Aquerra**\n\n**Key Features:**\n- Heattech technology for 20% better hot water utilization.\n- Rust-resistant enamel-coated pipes.\n- High energy efficiency (5-star rated).\n\n**Special Technology:**\n- Glass-lined coating for enhanced durability.\n\n**Pressure Handling:**\n- Up to 8 bar.\n\n**Warranty:**\n- 7 years tank, 2 years product."
+      ]
+    },{
+      "tag": "ro_aquaguard_delight",
+      "patterns": ["Tell me about Aquaguard Delight NXT", "Aquaguard Delight NXT details", "Features of Aquaguard Delight"],
+      "responses": [
+        "Brand & Model: **Aquaguard Delight NXT**\n\n**Key Features:**\n- 7-stage effective purification.\n- Suitable for various water sources.\n- Removes harmful contaminants.\n- LED indication for easy monitoring.\n- Dispenses water without electricity.\n- Saves up to 60% water.\n- 6-liter storage capacity.\n\n**Special Technology:**\n- Advanced purification technology.\n\n**Warranty:**\n- 1-year comprehensive warranty.\n\n**Rating:**\n- 9.5."
+      ]
+    },
+    {
+      "tag": "ro_livpure_glo_pro",
+      "patterns": ["Tell me about Livpure GLO PRO++", "Livpure GLO PRO++ details", "Features of Livpure GLO PRO++"],
+      "responses": [
+        "Brand & Model: **Livpure GLO PRO++**\n\n**Key Features:**\n- 7-stage advanced purification.\n- UV for bacteria and virus removal.\n- Carbon filter for taste improvement.\n- Taste enhancer for sweet-tasting water.\n- 7-liter insect-proof storage tank.\n\n**Special Technology:**\n- Interactive LED indicator.\n\n**Warranty:**\n- 1-year comprehensive warranty.\n\n**Rating:**\n- 9.5."
+      ]
+    },
+    {
+      "tag": "ro_native_m1",
+      "patterns": ["Tell me about Urban Company Native M1", "Native M1 details", "Features of Native M1 water purifier"],
+      "responses": [
+        "Brand & Model: **Urban Company Native M1**\n\n**Key Features:**\n- 9-stage purification.\n- UV protection.\n- Mineral-enriched water.\n- Taste adjuster.\n- 8-liter storage tank.\n\n**Special Technology:**\n- Long filter life (2 years).\n\n**Warranty:**\n- 2-year comprehensive warranty.\n\n**Rating:**\n- 9.5."
+      ]
+    },
+    {
+      "tag": "ro_havells_aquas",
+      "patterns": ["Tell me about Havells Aquas", "Havells Aquas details", "Features of Havells Aquas water purifier"],
+      "responses": [
+        "Brand & Model: **Havells Aquas**\n\n**Key Features:**\n- Copper+Zinc+pH balance+natural minerals.\n- 5-stage purification.\n- 7-liter transparent tank.\n- RO+UF purification technology.\n- Hygiene zero splash faucet.\n\n**Special Technology:**\n- 3-way mounting compact design.\n\n**Warranty:**\n- 1-year comprehensive warranty.\n\n**Rating:**\n- 9."
+      ]
+    },
+    {
+      "tag": "ro_kent_grand",
+      "patterns": ["Tell me about Kent Grand", "Kent Grand details", "Features of Kent Grand water purifier"],
+      "responses": [
+        "Brand & Model: **Kent Grand**\n\n**Key Features:**\n- Multi-stage RO+UF+TDS Control.\n- UV LED light kills bacteria.\n- Fast 20L/hr purification capacity.\n- 8-liter storage tank.\n\n**Special Technology:**\n- ROTM technology retains essential minerals.\n\n**Warranty:**\n- 1-year warranty.\n\n**Rating:**\n- 9.5."
+      ]
+    },
+    {
+      "tag": "ro_pureit_vital_plus",
+      "patterns": ["Tell me about HUL Pureit Vital Plus", "Pureit Vital Plus details", "Features of Pureit Vital Plus water purifier"],
+      "responses": [
+        "Brand & Model: **HUL Pureit Vital Plus**\n\n**Key Features:**\n- Filtra Power technology.\n- Smart sense indicators.\n- Mineral enhancer cartridge.\n- ECO recovery technology.\n\n**Special Technology:**\n- 6-stage purification process.\n\n**Warranty:**\n- 1-year comprehensive warranty.\n\n**Rating:**\n- 9.5."
+      ]
+    },
+    {
+      "tag": "ro_vguard_rejive",
+      "patterns": ["Tell me about V-Guard Rejive", "V-Guard Rejive details", "Features of V-Guard Rejive water purifier"],
+      "responses": [
+        "Brand & Model: **V-Guard Rejive**\n\n**Key Features:**\n- RO UV technology.\n- Mineral & alkaline health chargers.\n- 8-stage purification.\n- Suitable for TDS up to 2000 ppm.\n- 6.5-liter capacity.\n\n**Special Technology:**\n- Double-layer protection.\n\n**Warranty:**\n- 1-year comprehensive warranty.\n\n**Rating:**\n- 9.5."
+      ]
+    },
+    {
+      "tag": "ro_aquaguard_marvel",
+      "patterns": ["Tell me about Aquaguard Marvel NXT", "Aquaguard Marvel NXT details", "Features of Aquaguard Marvel NXT"],
+      "responses": [
+        "Brand & Model: **Aquaguard Marvel NXT**\n\n**Key Features:**\n- RO+UV+UF+Active Copper Tech.\n- Saves up to 60% water.\n- Taste adjuster for sweet-tasting water.\n- Works with all water sources.\n- Zero-pressure pump for low pressure.\n\n**Special Technology:**\n- Smart service alerts for maintenance.\n\n**Warranty:**\n- 1-year comprehensive warranty.\n\n**Rating:**\n- 9."
+      ]
+    },
+    {
+      "tag": "ro_livpure_bolt_dx",
+      "patterns": ["Tell me about Livpure Bolt DX", "Livpure Bolt DX details", "Features of Livpure Bolt DX water purifier"],
+      "responses": [
+        "Brand & Model: **Livpure Bolt DX Ecocare**\n\n**Key Features:**\n- Copper+RO+UF+Mineraliser+Smart TDS Adjuster.\n- 7-liter tank capacity.\n- HR technology for water savings.\n\n**Special Technology:**\n- Smart TDS & water-saving technology.\n\n**Warranty:**\n- 1-year comprehensive warranty.\n\n**Rating:**\n- 9.5."
+      ]
+    },
+    {
+      "tag": "ro_pureit_advanced_pro",
+      "patterns": ["Tell me about HUL Pureit Advanced Pro", "Pureit Advanced Pro details", "Features of Pureit Advanced Pro water purifier"],
+      "responses": [
+        "Brand & Model: **HUL Pureit Advanced Pro**\n\n**Key Features:**\n- 6-stage purification process.\n- Enriches water with essential minerals.\n- 7-liter capacity.\n- Can handle TDS levels up to 2000 ppm.\n\n**Special Technology:**\n- Food-grade engineered plastic tank.\n\n**Warranty:**\n- 1-year comprehensive warranty.\n\n**Rating:**\n- 9.5."
+      ]
+    },
+    {
+      "tag": "ro_kent_supreme",
+      "patterns": ["Tell me about Kent Supreme", "Kent Supreme details", "Features of Kent Supreme water purifier"],
+      "responses": [
+        "Brand & Model: **Kent Supreme**\n\n**Key Features:**\n- RO+UV+UF+TDS Control technology.\n- Storage capacity 8L.\n- Purification rate: 20L/hr max.\n- Auto on/off, overflow protection.\n\n**Special Technology:**\n- Maintains essential minerals.\n\n**Warranty:**\n- 1-year warranty + 3 years free service.\n\n**Rating:**\n- 9.5."
+      ]
+    },
+    {
+      "tag": "ro_vguard_zenora",
+      "patterns": ["Tell me about V-Guard Zenora", "V-Guard Zenora details", "Features of V-Guard Zenora water purifier"],
+      "responses": [
+        "Brand & Model: **V-Guard Zenora**\n\n**Key Features:**\n- RO+UF+MB water purifier.\n- 8-stage purification.\n- Free PAN India installation.\n- 7-liter storage tank.\n\n**Special Technology:**\n- Made for Indian water conditions.\n\n**Warranty:**\n- 1-year comprehensive warranty.\n\n**Rating:**\n- 9.5."
+      ]
+    },{
+      "tag": "ro_aquaguard_delight_nxt",
+      "patterns": ["Tell me about Aquaguard Delight NXT", "Aquaguard Delight NXT details", "Features of Aquaguard Delight NXT"],
+      "responses": [
+        "**Key Features:**\n- 7-stage purification (RO+UV+MTDS)\n- Removes harmful contaminants (lead, mercury, arsenic)\n- UV e-boiling for healthier water\n- Taste Adjuster (MTDS) for sweet-tasting water\n- 6-liter storage capacity\n- LED indications for alerts (full tank, service, cartridge replacement)\n- Dispenses water without electricity\n- Compact, modern design\n\n**Product Description:**\nAquaguard Delight NXT RO+UV+MTDS provides multi-stage purification, making it suitable for any water source. It removes impurities, kills microorganisms, and enhances taste. With flexible installation options, LED alerts, and a smart app for service notifications, it ensures convenience. It's an ideal budget-friendly purifier for Indian households with a 1-year comprehensive warranty.\n\n**Pros:**\n- Suitable for all water sources.\n- Dispenses water without electricity.\n- Budget-friendly.\n- Easy installation.\n\n**Cons:**\n- None found based on price and features."
+      ]
+    },
+    {
+      "tag": "ro_livpure_glo_pro",
+      "patterns": ["Tell me about Livpure GLO PRO++", "Livpure GLO PRO++ details", "Features of Livpure GLO PRO++"],
+      "responses": [
+        "**Key Features:**\n- 7-stage advanced purification process\n- UV for bacteria and virus removal\n- Taste enhancer for sweet water\n- Ultrafiltration for safe water\n- 7-liter insect-proof tank\n- Sleek design with interactive LED indicators\n\n**Product Description:**\nLivpure GLO PRO++ ensures safe drinking water with a 7-stage purification process and UV disinfection. The post-carbon filter improves taste and removes odors. With a sleek design and interactive LED indicators, it’s ideal for families of 4-5 members. It offers a compact solution for sweet and healthy drinking water.\n\n**Pros:**\n- Budget-friendly.\n- Sleek and compact design.\n- Excellent product quality.\n\n**Cons:**\n- None found for its price and features."
+      ]
+    },
+    {
+      "tag": "ro_native_m1",
+      "patterns": ["Tell me about Urban Company Native M1", "Urban Company Native M1 details", "Features of Native M1 water purifier"],
+      "responses": [
+        "**Key Features:**\n- Long filter life (2 years)\n- 9-stage purification\n- UV protection\n- Mineral-enriched water\n- 8-liter storage tank\n- Free installation\n- Taste adjuster\n\n**Product Description:**\nUrban Company Native M1 delivers clean water through its 9-stage purification system, which removes impurities while retaining essential minerals. The in-tank UV light ensures continuous disinfection. Its long filter life and compact design make it a cost-effective and convenient choice.\n\n**Pros:**\n- Long filter life saves costs.\n- Mineral-enriched water.\n- Free installation and warranty.\n\n**Cons:**\n- Higher initial cost compared to basic purifiers."
+      ]
+    },
+    {
+      "tag": "ro_havells_aquas",
+      "patterns": ["Tell me about Havells Aquas", "Havells Aquas details", "Features of Havells Aquas water purifier"],
+      "responses": [
+        "**Key Features:**\n- RO+UF purification technology\n- Copper+Zinc+pH balance+natural minerals\n- 5-stage purification\n- 7-liter transparent tank\n- Hygiene-focused zero splash faucet\n\n**Product Description:**\nHavells Aquas uses a 5-stage purification process, including RO and UF technologies. It enriches water with essential minerals like copper and zinc while maintaining pH balance. The removable transparent tank and compact design make it easy to use and clean.\n\n**Pros:**\n- Mineral enrichment technology.\n- Compact, versatile design.\n\n**Cons:**\n- No UV technology."
+      ]
+    },
+    {
+      "tag": "ro_kent_grand",
+      "patterns": ["Tell me about Kent Grand", "Kent Grand details", "Features of Kent Grand water purifier"],
+      "responses": [
+        "**Key Features:**\n- Multi-stage RO+UF+TDS control\n- UV LED light for bacterial elimination\n- 8-liter storage capacity\n- High purification capacity (20 L/hr)\n\n**Product Description:**\nKent Grand offers advanced multi-stage purification for Indian water types. Its Mineral ROTM Technology retains essential minerals, while UV LED light ensures long-term purity. The high storage capacity and fast purification make it suitable for families or offices.\n\n**Pros:**\n- Retains essential minerals.\n- High purification speed.\n\n**Cons:**\n- Pre-filter not included."
+      ]
+    },
+    {
+      "tag": "ro_pureit_vital_plus",
+      "patterns": ["Tell me about HUL Pureit Vital Plus", "Pureit Vital Plus details", "Features of HUL Pureit Vital Plus water purifier"],
+      "responses": [
+        "**Key Features:**\n- FiltraPower technology\n- Smartsense indicators\n- Mineral enhancer cartridge\n- ECO recovery technology\n\n**Product Description:**\nHUL Pureit Vital Plus uses advanced technology to provide clean water with high recovery efficiency. The FiltraPower technology ensures safe drinking water, while mineral enhancer cartridges add essential minerals. Smart indicators notify filter replacement needs, offering convenience and safety.\n\n**Pros:**\n- High-water recovery.\n- Smart indicators.\n\n**Cons:**\n- TDS limit up to 2000 ppm."
+      ]
+    },
+    {
+      "tag": "ro_vguard_rejive",
+      "patterns": ["Tell me about V-Guard Rejive", "V-Guard Rejive details", "Features of V-Guard Rejive water purifier"],
+      "responses": [
+        "**Key Features:**\n- RO+UV technology\n- Mineral & alkaline health chargers\n- 8-stage purification\n- 6.5-liter capacity\n\n**Product Description:**\nV-Guard Rejive is ideal for Indian water conditions, using an 8-stage purification process to remove impurities and improve taste. Its mineral and alkaline chargers add essential nutrients and balance pH levels for better health.\n\n**Pros:**\n- Multi-stage purification.\n- Adds minerals and balances pH.\n\n**Cons:**\n- None found."
+      ]
+    },{
+      "tag": "gas_stove_butterfly_smart_2_burner",
+      "patterns": ["Tell me about Butterfly Smart Glass 2 Burner Gas Stove", "Butterfly Smart Gas Stove details", "Features of Butterfly 2 Burner Stove"],
+      "responses": [
+        "**Brand & Model:** Butterfly Smart Glass 2 Burner Gas Stove\n\n**Special Features:**\n- Toughened glass top for durability and elegance.\n- Compact design with a scratch-resistant surface.\n- Skid-proof legs for extra stability.\n- Efficient manual ignition system.\n\n**Number of Burners:** 2\n**Auto-Ignition:** No\n\n**Description:**\nThe Butterfly Smart Glass 2 Burner Gas Stove combines style and functionality, featuring a sleek toughened glass top and a user-friendly manual ignition system. It is ideal for small households, offering reliable performance and quick heating with efficient burners. The skid-proof legs ensure stability during cooking.\n\n**Pros:**\n- Durable toughened glass top.\n- Compact and easy to clean.\n- Affordable and user-friendly.\n\n**Cons:**\n- Manual ignition may not suit everyone."
+      ]
+    },
+    {
+      "tag": "gas_stove_milton_premium_3_burner",
+      "patterns": ["Tell me about Milton Premium 3 Burner Gas Stove", "Milton 3 Burner Stove details", "Features of Milton Premium Stove"],
+      "responses": [
+        "**Brand & Model:** Milton Premium 3 Burner Glass Top Manual LPG Stove\n\n**Special Features:**\n- ISI certified for safety.\n- Durable glass top with ergonomic knobs.\n- Efficient brass burners for uniform heating.\n\n**Number of Burners:** 3\n**Auto-Ignition:** No\n\n**Description:**\nThe Milton Premium 3 Burner Gas Stove offers a stylish design and efficient performance with its durable glass top and brass burners. The ergonomic knobs ensure ease of use, making it a reliable choice for medium-sized families.\n\n**Pros:**\n- Durable construction.\n- Safe and efficient.\n- Stylish design.\n\n**Cons:**\n- Manual ignition system."
+      ]
+    },
+    {
+      "tag": "gas_stove_prestige_marvel_4_burner",
+      "patterns": ["Tell me about Prestige Marvel 4 Burner Gas Stove", "Prestige Marvel details", "Features of Prestige 4 Burner Stove"],
+      "responses": [
+        "**Brand & Model:** Prestige Marvel Glass Top 4 Burner Gas Stove\n\n**Special Features:**\n- Toughened glass top for durability.\n- Spill-proof design for easy cleaning.\n- High-efficiency tri-pin brass burners.\n- Ergonomic knobs for convenience.\n\n**Number of Burners:** 4\n**Auto-Ignition:** No\n\n**Description:**\nThe Prestige Marvel 4 Burner Gas Stove is perfect for large families, offering ample cooking space and efficient heating. Its toughened glass top adds elegance, while the spill-proof design ensures hassle-free maintenance. The tri-pin burners provide uniform heating for all cooking needs.\n\n**Pros:**\n- Large cooking surface.\n- Durable and stylish design.\n- Easy to clean.\n\n**Cons:**\n- No auto-ignition feature."
+      ]
+    },
+    {
+      "tag": "gas_stove_blowhot_emerald_3_burner",
+      "patterns": ["Tell me about BLOWHOT Premium Emerald Tornado 3 Burner Gas Stove", "BLOWHOT Emerald details", "Features of BLOWHOT Gas Stove"],
+      "responses": [
+        "**Brand & Model:** BLOWHOT Premium Emerald Tornado 3 Burner Gas Stove\n\n**Special Features:**\n- Auto ignition for seamless operation.\n- Toughened glass cooktop with a stylish design.\n- Heavy-duty pan support for stability.\n\n**Number of Burners:** 3\n**Auto-Ignition:** Yes\n\n**Description:**\nThe BLOWHOT Premium Emerald Tornado Gas Stove delivers exceptional value with its modern design, auto ignition system, and heavy-duty construction. The toughened glass cooktop ensures durability and easy maintenance, making it a practical choice for contemporary kitchens.\n\n**Pros:**\n- Auto-ignition for convenience.\n- Stylish and durable.\n- Excellent value for money.\n\n**Cons:**\n- Slightly higher price compared to manual models."
+      ]
+    },
+    {
+      "tag": "gas_stove_milton_pro_4_burner",
+      "patterns": ["Tell me about Milton Premium Pro 4 Burner Gas Stove", "Milton Pro details", "Features of Milton 4 Burner Stove"],
+      "responses": [
+        "**Brand & Model:** Milton Premium Pro 4 Burner Glass Top Auto Ignition LPG Stove\n\n**Special Features:**\n- ISI certified for safety.\n- 360-degree nozzle for flexibility.\n- Heavy-duty construction with pure brass burners.\n\n**Number of Burners:** 4\n**Auto-Ignition:** Yes\n\n**Description:**\nThe Milton Premium Pro 4 Burner Gas Stove offers advanced features like auto ignition and pure brass burners for efficient heating. Its durable construction and sleek design make it a perfect choice for larger families seeking convenience and performance.\n\n**Pros:**\n- Auto ignition for easy use.\n- Durable and efficient.\n- Certified safety standards.\n\n**Cons:**\n- Slightly expensive."
+      ]
+    },
+    {
+      "tag": "gas_stove_bajaj_ultra_3_burner",
+      "patterns": ["Tell me about Bajaj Ultra 3 Burner Gas Stove", "Bajaj Ultra details", "Features of Bajaj 3 Burner Stove"],
+      "responses": [
+        "**Brand & Model:** Bajaj Ultra 3 Burner Black Glass Top Gas Stove\n\n**Special Features:**\n- Powder-coated glass top for durability.\n- ISI certified for safety.\n- Durable brass burners for uniform heating.\n\n**Number of Burners:** 3\n**Auto-Ignition:** No\n\n**Description:**\nThe Bajaj Ultra 3 Burner Gas Stove is designed for durability and safety, featuring a powder-coated glass top and efficient brass burners. Its stylish design and ISI certification make it a reliable option for everyday cooking.\n\n**Pros:**\n- Durable and safe.\n- Easy to clean.\n\n**Cons:**\n- No auto-ignition feature."
+      ]
+    },
+    {
+      "tag": "gas_stove_khaitan_2_burner",
+      "patterns": ["Tell me about Khaitan 2 Burner Gas Stove", "Khaitan Gas Stove details", "Features of Khaitan Stove"],
+      "responses": [
+        "**Brand & Model:** Khaitan 2 Burner Smart Stainless Steel Gas Stove\n\n**Special Features:**\n- Sleek stainless steel design.\n- Durable construction.\n- Efficient burners for quick cooking.\n\n**Number of Burners:** 2\n**Auto-Ignition:** No\n\n**Description:**\nThe Khaitan 2 Burner Gas Stove combines functionality with durability, featuring a sleek stainless steel design and efficient burners. It is easy to maintain and perfect for small households seeking reliable performance.\n\n**Pros:**\n- Durable and easy to maintain.\n- Compact and lightweight.\n\n**Cons:**\n- Manual ignition system."
+      ]
+    },    {
+      "tag": "bluetooth_speaker_ultimate_ears_wonderboom_4",
+      "patterns": ["Tell me about Ultimate Ears Wonderboom 4", "Ultimate Ears Wonderboom 4 details", "Features of Wonderboom 4 speaker"],
+      "responses": [
+        "**Brand & Model:** Ultimate Ears Wonderboom 4\n\n**Key Features:**\n- Weight: 0.93 pounds\n- Dust and water resistance: IP67\n- Battery life: 14 hours\n- Compact design with exceptional sound quality.\n- Easy pairing with Bluetooth devices.\n- Stereo pairing option with two speakers.\n- Rugged and waterproof for outdoor use.\n\n**Description:**\nThe Ultimate Ears Wonderboom 4 is a small, portable speaker that delivers impressive sound quality for its size. It features IP67 water and dust resistance, making it perfect for pool parties or travel. With easy pairing and a 14-hour battery life, it's ideal for podcasts, audiobooks, and music. USB-C charging adds convenience for modern users.\n\n**Pros:**\n- Durable and portable.\n- Excellent sound quality for its size.\n- Easy to use and pair.\n\n**Cons:**\n- Slight distortion at high volumes."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_sony_xb100",
+      "patterns": ["Tell me about Sony XB100", "Sony XB100 speaker details", "Features of Sony XB100"],
+      "responses": [
+        "**Brand & Model:** Sony XB100 Compact Bluetooth Speaker\n\n**Key Features:**\n- Weight: 0.56 pounds\n- Dust and water resistance: IP67\n- Battery life: 16 hours\n- Compact, durable matte plastic design.\n- Punchy bass and clear vocals.\n- Available in vibrant colors.\n\n**Description:**\nSony's XB100 offers excellent sound quality at an affordable price, with a durable design and IP67 resistance. It features punchy bass and clear sound, perfect for hip-hop, rock, or podcasts. The 16-hour battery life ensures long-lasting entertainment, making it a great companion for travel or home use.\n\n**Pros:**\n- Affordable and durable.\n- Long battery life.\n- Clear, punchy sound.\n\n**Cons:**\n- Slightly less clarity at high volumes."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_jbl_clip_5",
+      "patterns": ["Tell me about JBL Clip 5", "JBL Clip 5 speaker details", "Features of JBL Clip 5"],
+      "responses": [
+        "**Brand & Model:** JBL Clip 5\n\n**Key Features:**\n- Weight: 0.62 pounds\n- Dust and water resistance: IP67\n- Battery life: 12 hours\n- Built-in clip for portability.\n- Rubber ribs for stability on smooth surfaces.\n- Compact and waterproof design.\n\n**Description:**\nThe JBL Clip 5 is an ultra-portable speaker with a built-in clip for easy attachment to bags, bikes, or showerheads. Its IP67 rating ensures durability, and the 12-hour battery life makes it great for outdoor adventures. It delivers clear sound even in noisy environments.\n\n**Pros:**\n- Highly portable with a built-in clip.\n- Durable and waterproof.\n- Stable on smooth surfaces.\n\n**Cons:**\n- Non-raised power and pairing buttons."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_jbl_go_4",
+      "patterns": ["Tell me about JBL Go 4", "JBL Go 4 speaker details", "Features of JBL Go 4"],
+      "responses": [
+        "**Brand & Model:** JBL Go 4\n\n**Key Features:**\n- Weight: 0.69 pounds\n- Dust and water resistance: IP67\n- Battery life: 7 hours\n- Compact and lightweight design.\n- Crisp sound quality for podcasts and audiobooks.\n- Small size with a fabric loop for portability.\n\n**Description:**\nThe JBL Go 4 is a tiny yet powerful speaker that’s easy to carry between rooms or take on trips. Its compact design and crisp sound make it perfect for personal use. While its 7-hour battery life is shorter than some competitors, it’s ideal for short listening sessions.\n\n**Pros:**\n- Ultra-portable design.\n- Clear sound for spoken content.\n- Durable and water-resistant.\n\n**Cons:**\n- Shorter battery life compared to competitors."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_sonos_move_2",
+      "patterns": ["Tell me about Sonos Move 2", "Sonos Move 2 speaker details", "Features of Sonos Move 2"],
+      "responses": [
+        "**Brand & Model:** Sonos Move 2\n\n**Key Features:**\n- Weight: 6.61 pounds\n- Dust and water resistance: IP56\n- Battery life: 24 hours\n- Removable battery for easy replacement.\n- Multi-speaker pairing and adaptive audio.\n- Integrated Alexa and AirPlay.\n\n**Description:**\nThe Sonos Move 2 is a high-end Bluetooth speaker with excellent sound quality and smart features. It’s perfect for home use, offering multi-room audio capabilities and adaptive audio. The removable battery and durable design make it a long-term investment.\n\n**Pros:**\n- Superior sound quality.\n- Smart features and app control.\n- Long battery life.\n\n**Cons:**\n- Expensive.\n- Docking station charging is less portable."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_jbl_pulse_5",
+      "patterns": ["Tell me about JBL Pulse 5", "JBL Pulse 5 speaker details", "Features of JBL Pulse 5"],
+      "responses": [
+        "**Brand & Model:** JBL Pulse 5\n\n**Key Features:**\n- Weight: 3.2 pounds\n- Dust and water resistance: IP67\n- Battery life: 12 hours\n- LED light show with customizable animations.\n- Rich sound across various genres.\n\n**Description:**\nThe JBL Pulse 5 combines immersive sound with an eye-catching light show. Its durable design makes it suitable for parties and gatherings. The lights sync to your music, creating an engaging visual experience while maintaining high-quality sound.\n\n**Pros:**\n- Stunning LED light show.\n- Durable and water-resistant.\n- Great sound quality.\n\n**Cons:**\n- Less portable due to size."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_jbl_boombox_3",
+      "patterns": ["Tell me about JBL Boombox 3", "JBL Boombox 3 speaker details", "Features of JBL Boombox 3"],
+      "responses": [
+        "**Brand & Model:** JBL Boombox 3\n\n**Key Features:**\n- Weight: 13 pounds\n- Dust and water resistance: IP67\n- Battery life: 24 hours\n- Powerful bass and clear sound.\n- USB-A port for device charging.\n\n**Description:**\nThe JBL Boombox 3 is a large, loud Bluetooth speaker designed for gatherings. Its 24-hour battery life and powerful sound make it perfect for parties. Despite its size, it’s easy to carry thanks to its ergonomic handle.\n\n**Pros:**\n- Excellent sound quality with powerful bass.\n- Long-lasting battery.\n- Durable design.\n\n**Cons:**\n- Bulky and heavy."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_edifier_r1700bt",
+      "patterns": ["Tell me about Edifier R1700BT", "Edifier R1700BT speaker details", "Features of Edifier R1700BT"],
+      "responses": [
+        "**Brand & Model:** Edifier R1700BT\n\n**Key Features:**\n- Weight: 14.5 pounds\n- Dust and water resistance: N/A\n- Bluetooth and analog connectivity.\n- Side panel and remote control for adjustments.\n\n**Description:**\nThe Edifier R1700BT bookshelf speakers are perfect for audiophiles and vinyl enthusiasts. They deliver powerful sound and offer Bluetooth functionality for added convenience. The compact design and high-quality build make them a great addition to any home audio setup.\n\n**Pros:**\n- Excellent sound for records and Bluetooth audio.\n- Compact and stylish.\n\n**Cons:**\n- Requires a power source (no built-in battery)."
+      ]
+    },  {
+      "tag": "bluetooth_speaker_ultimate_ears_wonderboom_4",
+      "patterns": [
+        "Tell me about Ultimate Ears Wonderboom 4",
+        "Details of Wonderboom 4 speaker",
+        "Features of Ultimate Ears Wonderboom 4"
+      ],
+      "responses": [
+        "**Brand & Model:** Ultimate Ears Wonderboom 4\n\n**Key Features:**\n- Weight: 0.93 pounds\n- Dust and water resistance: IP67\n- Battery life: 14 hours\n- Compact and portable design.\n- Clear sound quality with stereo pairing option.\n- Durable and waterproof.\n- USB-C charging for convenience.\n\n**Description:**\nThe Ultimate Ears Wonderboom 4 offers powerful sound in a compact size. It’s designed for portability, making it suitable for indoor and outdoor use. With an IP67 rating, it can survive water immersion and dust exposure. The stereo pairing and durable build add to its value.\n\n**Pros:**\n- Excellent sound for size.\n- Long battery life.\n- Easy to pair and operate.\n\n**Cons:**\n- Slight distortion at higher volumes."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_sony_xb100",
+      "patterns": [
+        "Tell me about Sony XB100 speaker",
+        "Features of Sony XB100",
+        "Details about XB100 compact speaker"
+      ],
+      "responses": [
+        "**Brand & Model:** Sony XB100 Compact Bluetooth Speaker\n\n**Key Features:**\n- Weight: 0.56 pounds\n- Dust and water resistance: IP67\n- Battery life: 16 hours\n- Durable matte plastic finish.\n- Punchy bass and clear vocals.\n- Fabric loop for portability.\n\n**Description:**\nSony's XB100 is a compact speaker offering rich bass and clear audio. Its IP67 rating makes it durable and suitable for travel or outdoor use. With a 16-hour battery life, it is reliable for extended listening sessions.\n\n**Pros:**\n- Affordable and compact.\n- Long-lasting battery.\n- Durable build.\n\n**Cons:**\n- Slight loss of clarity at high volumes."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_jbl_clip_5",
+      "patterns": [
+        "Tell me about JBL Clip 5 speaker",
+        "Details of JBL Clip 5",
+        "Features of Clip 5 Bluetooth speaker"
+      ],
+      "responses": [
+        "**Brand & Model:** JBL Clip 5\n\n**Key Features:**\n- Weight: 0.62 pounds\n- Dust and water resistance: IP67\n- Battery life: 12 hours\n- Built-in clip for portability.\n- Rubber ribs for stability.\n- Compact, waterproof design.\n\n**Description:**\nThe JBL Clip 5 is designed for portability with a built-in clip for attachment to backpacks or bikes. Its compact size, IP67 rating, and 12-hour battery life make it perfect for travel and outdoor use.\n\n**Pros:**\n- Travel-friendly with clip attachment.\n- Waterproof and durable.\n- Stable on smooth surfaces.\n\n**Cons:**\n- Hard-to-press power and pairing buttons."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_sonos_move_2",
+      "patterns": [
+        "Tell me about Sonos Move 2",
+        "Details of Sonos Move 2 speaker",
+        "Features of Move 2 Bluetooth speaker"
+      ],
+      "responses": [
+        "**Brand & Model:** Sonos Move 2\n\n**Key Features:**\n- Weight: 6.61 pounds\n- Dust and water resistance: IP56\n- Battery life: 24 hours\n- Multi-room audio and adaptive sound.\n- Alexa and AirPlay integration.\n- Durable build with removable battery.\n\n**Description:**\nThe Sonos Move 2 delivers high-quality sound with smart features like Alexa and AirPlay. It’s ideal for home use and offers portability with a built-in handle. The removable battery ensures long-term usability, making it a premium choice.\n\n**Pros:**\n- Outstanding sound quality.\n- Long-lasting battery life.\n- Smart features for convenience.\n\n**Cons:**\n- Expensive.\n- Dock charging limits portability."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_jbl_pulse_5",
+      "patterns": [
+        "Tell me about JBL Pulse 5",
+        "Details of JBL Pulse 5 speaker",
+        "Features of Pulse 5 Bluetooth speaker"
+      ],
+      "responses": [
+        "**Brand & Model:** JBL Pulse 5\n\n**Key Features:**\n- Weight: 3.2 pounds\n- Dust and water resistance: IP67\n- Battery life: 12 hours\n- LED light show with customizable animations.\n- Rich sound with minimal distortion.\n\n**Description:**\nThe JBL Pulse 5 combines vivid LED light shows with high-quality audio. It’s perfect for parties and offers durability with its IP67 rating. The customizable lights sync with music for an immersive experience.\n\n**Pros:**\n- Stunning LED visuals.\n- Durable and water-resistant.\n- Rich, immersive sound.\n\n**Cons:**\n- Larger size reduces portability."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_jbl_boombox_3",
+      "patterns": [
+        "Tell me about JBL Boombox 3",
+        "Details of JBL Boombox 3 speaker",
+        "Features of Boombox 3 Bluetooth speaker"
+      ],
+      "responses": [
+        "**Brand & Model:** JBL Boombox 3\n\n**Key Features:**\n- Weight: 13 pounds\n- Dust and water resistance: IP67\n- Battery life: 24 hours\n- Powerful bass and clear sound.\n- USB-A port for device charging.\n\n**Description:**\nThe JBL Boombox 3 is built for gatherings with powerful sound and deep bass. It’s durable and offers a long battery life of 24 hours. Despite its large size, it’s easy to carry with an ergonomic handle.\n\n**Pros:**\n- Superior sound quality.\n- Long-lasting battery.\n- Suitable for large gatherings.\n\n**Cons:**\n- Bulky design."
+      ]
+    },
+    {
+      "tag": "bluetooth_speaker_edifier_r1700bt",
+      "patterns": [
+        "Tell me about Edifier R1700BT",
+        "Details of Edifier R1700BT speaker",
+        "Features of Edifier R1700BT Bluetooth speaker"
+      ],
+      "responses": [
+        "**Brand & Model:** Edifier R1700BT\n\n**Key Features:**\n- Weight: 14.5 pounds\n- Dust and water resistance: N/A\n- Compact bookshelf design.\n- Bluetooth and analog connectivity.\n- Side panel and remote control.\n\n**Description:**\nThe Edifier R1700BT is a compact bookshelf speaker ideal for audiophiles. It offers Bluetooth and analog connectivity, making it versatile for records and streaming. Its high-quality sound and stylish design make it a top pick for home use.\n\n**Pros:**\n- Rich audio for music and records.\n- Compact and stylish design.\n\n**Cons:**\n- Requires constant power source."
+      ]
+    },  {
+    "tag": "shipping_time",
+    "patterns": ["How long does shipping take", "What is the delivery time", "How fast is shipping"],
+    "responses": ["Shipping usually takes 5-7 business days for standard delivery and 1-3 business days for express delivery."]
+  },
+  {
+    "tag": "shipping_cost",
+    "patterns": ["What are the shipping charges", "How much does shipping cost", "Tell me about shipping fees"],
+    "responses": ["Standard shipping is free for orders above $50. For orders below $50, the shipping cost is $5."]
+  },
+  {
+    "tag": "return_policy",
+    "patterns": ["What is the return policy", "Can I return a product", "How to return an item"],
+    "responses": ["You can return items within 30 days of delivery. Ensure the product is unused and in its original packaging."]
+  },
+  {
+    "tag": "refund_time",
+    "patterns": ["How long does a refund take", "When will I get my refund", "Refund time frame"],
+    "responses": ["Refunds are processed within 7-10 business days after the returned product is inspected."]
+  },
+  {
+    "tag": "payment_methods",
+    "patterns": ["What payment methods are accepted", "How can I pay", "Payment options available"],
+    "responses": ["We accept credit cards, debit cards, PayPal, and digital wallets like Apple Pay and Google Pay."]
+  },
+  {
+    "tag": "track_order",
+    "patterns": ["How to track my order", "Order tracking details", "Where is my order"],
+    "responses": ["You can track your order using the tracking link provided in your confirmation email."]
+  },
+  {
+    "tag": "account_creation",
+    "patterns": ["How to create an account", "Sign up process", "How can I register"],
+    "responses": ["To create an account, click on the 'Sign Up' button and fill in your email, name, and password."]
+  },
+  {
+    "tag": "forgot_password",
+    "patterns": ["What to do if I forget my password", "How to reset password", "Forgot password help"],
+    "responses": ["Click on 'Forgot Password' on the login page and follow the instructions to reset your password."]
+  },
+  {
+    "tag": "offers_discounts",
+    "patterns": ["Are there any discounts", "Tell me about offers", "Current promotions"],
+    "responses": ["Check the 'Offers' section on our app for ongoing discounts and deals."]
+  },
+  {
+    "tag": "product_availability",
+    "patterns": ["Is this product available", "Stock availability", "Can I buy this item now"],
+    "responses": ["Product availability is shown on the product page. If it's out of stock, you can choose to be notified when it's back."]
+  },
+  {
+    "tag": "product_quality",
+    "patterns": ["Is the product high quality", "Tell me about product standards", "Product quality assurance"],
+    "responses": ["We ensure all our products go through rigorous quality checks before listing them."]
+  },
+  {
+    "tag": "cancel_order",
+    "patterns": ["How to cancel an order", "Can I cancel my order", "Order cancellation steps"],
+    "responses": ["You can cancel your order before it is shipped. Go to 'My Orders' and select 'Cancel Order'."]
+  },
+  {
+    "tag": "customer_support",
+    "patterns": ["How to contact customer service", "Customer support details", "Help center contact"],
+    "responses": ["You can reach customer support through the 'Contact Us' section or call our helpline number."]
+  },
+  {
+    "tag": "gift_wrapping",
+    "patterns": ["Is gift wrapping available", "Do you offer gift wrap", "Gift packaging options"],
+    "responses": ["Yes, gift wrapping is available at an additional cost. You can select it during checkout."]
+  },
+  {
+    "tag": "product_warranty",
+    "patterns": ["Does the product have a warranty", "Warranty details", "Product warranty information"],
+    "responses": ["Warranty details are provided on the product page under 'Specifications' or 'Details' section."]
+  },
+  {
+    "tag": "multiple_orders",
+    "patterns": ["Can I place multiple orders", "How to order multiple items", "Ordering more than one product"],
+    "responses": ["Yes, you can add multiple items to your cart and proceed with a single checkout."]
+  },
+  {
+    "tag": "app_update",
+    "patterns": ["How to update the app", "Is the app updated", "Update app instructions"],
+    "responses": ["You can update the app from your device's app store to access new features and fixes."]
+  },
+  {
+    "tag": "language_support",
+    "patterns": ["What languages does the app support", "Is my language available", "Supported languages"],
+    "responses": ["Our app supports multiple languages. You can change the language in the settings."]
+  },
+  {
+    "tag": "delivery_partner",
+    "patterns": ["Who are your delivery partners", "What courier do you use", "Delivery service provider"],
+    "responses": ["We partner with leading courier services to ensure timely and safe delivery."]
+  },
+  {
+    "tag": "preorder",
+    "patterns": ["Can I preorder items", "Preorder option available", "How to preorder products"],
+    "responses": ["Preorder is available for selected items. Check the product page for more details."]
+  },
+  {
+    "tag": "delivery_issues",
+    "patterns": ["What to do if delivery is delayed", "My order is not delivered", "Delivery problem resolution"],
+    "responses": ["If your order is delayed, please contact customer support with your order ID for assistance."]
+  },
+  {
+    "tag": "order_confirmation",
+    "patterns": ["How to confirm my order", "Order confirmation process", "Will I get a confirmation"],
+    "responses": ["You will receive an email and notification once your order is successfully placed."]
+  },
+  {
+    "tag": "product_return_steps",
+    "patterns": ["How do I return a product", "Steps to return an item", "Return process"],
+    "responses": ["Go to 'My Orders', select the product you want to return, and follow the instructions provided."]
+  },
+  {
+    "tag": "delivery_tracking",
+    "patterns": ["How to check delivery status", "Track my delivery", "Where is my package"],
+    "responses": ["You can track your delivery status from the 'My Orders' section in your account."]
+  },
+  {
+    "tag": "wishlist",
+    "patterns": ["How to add products to wishlist", "Can I save items for later", "What is the wishlist feature"],
+    "responses": ["Click on the 'Add to Wishlist' button on the product page to save items for later."]
+  },
+  {
+    "tag": "price_match",
+    "patterns": ["Do you offer price match", "Price match policy", "Will you match competitor prices"],
+    "responses": ["Currently, we do not offer a price match policy. Prices are as listed on the app."]
+  },
+  {
+    "tag": "cod_option",
+    "patterns": ["Is Cash on Delivery available", "COD payment option", "Can I pay on delivery"],
+    "responses": ["Yes, Cash on Delivery is available for most locations."]
+  },
+  {
+    "tag": "personal_data",
+    "patterns": ["How is my data protected", "Is my information secure", "Privacy policy details"],
+    "responses": ["Your data is protected with industry-standard encryption. Check our privacy policy for more details."]
+  },
+  {
+    "tag": "newsletter_subscription",
+    "patterns": ["How to subscribe to newsletter", "Newsletter subscription process", "Can I get email updates"],
+    "responses": ["You can subscribe to our newsletter through the 'Subscribe' section in the app."]
+  },
+  {
+    "tag": "payment_issue",
+    "patterns": ["What to do if payment fails", "Payment not going through", "Payment error resolution"],
+    "responses": ["If your payment fails, try using a different payment method or contact your bank for support."]
+  },
+  {
+    "tag": "app_download",
+    "patterns": ["How to download the app", "App download link", "Where can I get the app"],
+    "responses": ["You can download the app from the Google Play Store or Apple App Store."]
+  },
+  {
+    "tag": "gift_card",
+    "patterns": ["Do you sell gift cards", "How to buy a gift card", "Gift card availability"],
+    "responses": ["Yes, gift cards are available. Check the 'Gift Cards' section in our app."]
+  },
+  {
+    "tag": "coupon_codes",
+    "patterns": ["How to apply a coupon code", "Where to enter discount codes", "Using promo codes"],
+    "responses": ["You can enter coupon codes on the checkout page in the 'Apply Code' section."]
+  },
+  {
+    "tag": "order_history",
+    "patterns": ["How to see my past orders", "Where is my order history", "Order details"],
+    "responses": ["Your order history is available under the 'My Orders' section in your account."]
+  },
+  {
+    "tag": "out_of_stock",
+    "patterns": ["What if an item is out of stock", "Can I get notified when back in stock", "Product not available"],
+    "responses": ["You can opt for notifications to know when the product is back in stock."]
+  },
+  {
+    "tag": "order_edit",
+    "patterns": ["Can I change my order details", "Edit order information", "How to modify an order"],
+    "responses": ["You can edit your order details like address before the order is shipped."]
+  },
+  {
+    "tag": "same_day_delivery",
+    "patterns": ["Is same-day delivery available", "Can I get my order today", "Same-day shipping option"],
+    "responses": ["Same-day delivery is available in select locations for certain items."]
+  },
+  {
+    "tag": "product_recommendation",
+    "patterns": ["Can you recommend products", "Product suggestions", "What should I buy"],
+    "responses": ["Based on your preferences, you can explore the 'Recommended for You' section in the app."]
+  },
+  {
+    "tag": "app_logout",
+    "patterns": ["How to log out from the app", "Log out steps", "Exit my account"],
+    "responses": ["You can log out from the 'Account Settings' section in the app."]
+  },
+  {
+    "tag": "customer_reviews",
+    "patterns": ["Where can I see reviews", "Are there customer ratings", "Product reviews available"],
+    "responses": ["Customer reviews are available on the product page under the 'Reviews' section."]
+  },
+  {
+    "tag": "package_damaged",
+    "patterns": ["What to do if my package is damaged", "Damaged product replacement", "Received faulty item"],
+    "responses": ["If you receive a damaged package, contact our support team with photos for assistance."]
+  },
+  {
+    "tag": "app_notifications",
+    "patterns": ["How to turn on notifications", "Notification settings", "App alerts"],
+    "responses": ["You can enable or disable notifications in the app settings on your device."]
+  },
+  {
+    "tag": "international_shipping",
+    "patterns": ["Do you ship internationally", "Can I order from another country", "International delivery option"],
+    "responses": ["Yes, we offer international shipping. Delivery charges and times may vary by location."]
+  },
+  {
+    "tag": "order_confirmation_email",
+    "patterns": ["Will I get a confirmation email", "Order email details", "Email not received for order"],
+    "responses": ["You will receive a confirmation email once your order is placed successfully. Check your spam folder if not received."]
+  }
+
+  ]
+}
